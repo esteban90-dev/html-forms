@@ -10,47 +10,70 @@
 
   <body>
     <main>
-      <header>
-        This is the header
-      </header>
-
       <article>
         <section>
-          Welcome to Mailchimp
+          <h1>Welcome to Mailchimp</h1>
         </section>
 
         <section>
-          <p>Find your people. Engage your customers.  Build your brand. Do it all with Mailchimp's Marketing Platform.  Already have an account? <a href="">Log in</a></p>
+          <p>Find your people. Engage your customers.  Build your brand. Do it all with Mailchimp's Marketing Platform.  Already have an account? <a href="" class="no-underline">Log in</a></p>
         </section>
 
-        <section>
-          Email
-        </section>
+        <form action="" method="POST">
+          <section>
+            <p><label for="email">Email</label></p>
+            <p><input type="text" name="email" id="email" class="form-input"></p>
+          </section>
 
-        <section>
-          Username
-        </section>
+          <section>
+            <p><label for="username">Username</label></p>
+            <p><input type="text" name="username" id="username" class="form-input"></p>
+          </section>
 
-        <section>
-          Password
-        </section>
+          <section>
+            <p><label for="password">Password</label></p>
+            <p><input type="text" name="password" id="password" class="form-input"></p>
+          </section>
 
-        <section>
-          Bullets
-        </section>
+          <section>
+            <ul class="row">
+              <div class="col-1-2-50">
+                <li class="text-small">One lowercase character</li>
+                <li class="text-small">One uppercase character</li>
+                <li class="text-small">One number</li>
+              </div>
+              <div class="col-2-2-50">
+                <li class="text-small">One special character</li>
+                <li class="text-small">8 characters minimum</li>
+              </div>
+            </ul>
+          </section>
 
-        <section>
-          Sign Up
-        </section>
+          <section class="row my-extra">
+            <div class="col-1-2-30">
+              <input type="submit" value="Sign Up" class="btn-large">
+            </div>
+            <div class="col-2-2-70">
+              <div class="row">
+                <div class="col-1-2-10">
+                  <input type="checkbox" name="emails" id="emails" class="emails-checkbox">
+                </div>
+                <div class="col-2-2-90">
+                  <label for="emails" class="text-small emails-label">I don't want to receive emails about new Mailchimp products, best practices, or special offers.</label>
+                </div>
+              </div>
+            </div>
+          </section>
 
-        <section>
-          <p>By clicking the "Sign Up" button, you are creating a Mailchimp account, and you agree to Mailchimp's <a href="">Terms of Use</a> and <a href="">Privacy Policy.</a></p>
-        </section>
+          <section>
+            <p class="text-small">By clicking the "Sign Up" button, you are creating a Mailchimp account, and you agree to Mailchimp's <a href="">Terms of Use</a> and <a href="">Privacy Policy.</a></p>
+          </section>
+        </form>
       </article>
 
       <footer>
-        <p>©2001–2021 All Rights Reserved. Mailchimp® is a registered trademark of The Rocket Science Group.</p>
-        <p><a href="">Cookie Preferences,</a> <a href="">Privacy,</a> and <a href="">Terms</a>.</p>
+        <p class="text-extra-small">©2001–2021 All Rights Reserved. Mailchimp® is a registered trademark of The Rocket Science Group.</p>
+        <p class="text-extra-small"><a href="">Cookie Preferences,</a> <a href="">Privacy,</a> and <a href="">Terms</a>.</p>
       </footer>
     </main>
   </body>
